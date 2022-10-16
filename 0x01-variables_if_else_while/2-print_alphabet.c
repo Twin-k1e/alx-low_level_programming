@@ -3,19 +3,20 @@
 
 /**
  * main - Entry point
- * Return: Always (0);
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n = 97;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	while (n <= 122)
+	for (i = 0; i < 26; i++)
 	{
-		putchar(n);
-		n++;
+		putchar(alp[i]);
 	}
 	putchar('\n');
 
-Return: Always(0);
+	return (0);
 }
