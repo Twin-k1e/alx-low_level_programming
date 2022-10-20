@@ -5,9 +5,10 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 {
 	int i;
+
 	printf("Ininite loop incoming :(\n");
 
 	i = 0;
@@ -17,6 +18,7 @@ int main (void)
 	 * putchar(i);
 	 * }
 	 */
-	printf("infinite loop avoided! \\on");
-	return (0)'
+	printf("Infinite loop avoided! \\o/\n");
+
+	return (0);
 }
